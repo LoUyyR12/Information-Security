@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\A'uuk\\Information Security\\Practice1\\Practice1\\Practice1\\Practice1.csproj",
+      "projectUniqueName": "G:\\A'uuk\\Information Security\\Practice1\\Practice1\\Practice1.csproj",
       "projectName": "Practice1",
-      "projectPath": "G:\\A'uuk\\Information Security\\Practice1\\Practice1\\Practice1\\Practice1.csproj",
+      "projectPath": "G:\\A'uuk\\Information Security\\Practice1\\Practice1\\Practice1.csproj",
       "packagesPath": "C:\\Users\\LoUyyR\\.nuget\\packages\\",
-      "outputPath": "G:\\A'uuk\\Information Security\\Practice1\\Practice1\\Practice1\\obj\\",
+      "outputPath": "G:\\A'uuk\\Information Security\\Practice1\\Practice1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LoUyyR\\AppData\\Roaming\\NuGet\\NuGet.Config",
