@@ -1,0 +1,14 @@
+G:\A'uuk\Information Security\Practice2\Practice2\bin\Debug\netcoreapp3.1\Practice2.exe
+G:\A'uuk\Information Security\Practice2\Practice2\bin\Debug\netcoreapp3.1\Practice2.deps.json
+G:\A'uuk\Information Security\Practice2\Practice2\bin\Debug\netcoreapp3.1\Practice2.runtimeconfig.json
+G:\A'uuk\Information Security\Practice2\Practice2\bin\Debug\netcoreapp3.1\Practice2.runtimeconfig.dev.json
+G:\A'uuk\Information Security\Practice2\Practice2\bin\Debug\netcoreapp3.1\Practice2.dll
+G:\A'uuk\Information Security\Practice2\Practice2\bin\Debug\netcoreapp3.1\Practice2.pdb
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.csproj.AssemblyReference.cache
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.GeneratedMSBuildEditorConfig.editorconfig
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.AssemblyInfoInputs.cache
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.AssemblyInfo.cs
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.csproj.CoreCompileInputs.cache
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.dll
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.pdb
+G:\A'uuk\Information Security\Practice2\Practice2\obj\Debug\netcoreapp3.1\Practice2.genruntimeconfig.cache
