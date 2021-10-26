@@ -23,13 +23,56 @@ namespace Practice3
 
             Guid targetGuid = new Guid("564c8da6-0440-88ec-d453-0bbad57c6036");
             string targetHash = "po1MVkAE7IjUUwu61XxgNg==";
-            for (int i = 100000000; i > 10000000; i--)
+            //for (int i = 100000000; i > 10000000; i--)
+            //{
+            //    if (Hashing.Md5(Encoding.UTF8.GetBytes(i.ToString())) == targetHash)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            string[] possibleNumbers = new string[10];
+            for (int i = 0; i < 10; i++)
             {
-                if (Hashing.Md5(Encoding.UTF8.GetBytes(i.ToString())) == targetHash)
-                {
-                    Console.WriteLine(i);
-                }
+                possibleNumbers[i] = i.ToString();
             }
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(possibleNumbers[i]);
+            }
+            Console.WriteLine(Decoding(targetHash, possibleNumbers, 8));
         }
+        static string Decoding(string targetHash, string[] possibleValues, int passwordLength)
+        {
+            string[] password = null;
+            Decoding_Loop(password, possibleValues, passwordLength, targetHash);
+            return "end";
+        }
+        static void Decoding_Loop(string[] password, string[] possibleValues, int passwordLength, string targetHash)
+        {
+            if (password != null)
+            {
+                if (password.Length == passwordLength)
+                {
+                    string strPassword = null;
+                    foreach (string Symbol in password)
+                    {
+                        strPassword += Symbol;
+                    }
+                        if (Hashing.Md5(Encoding.UTF8.GetBytes(strPassword)) == targetHash)
+                    {
+                        Console.WriteLine(password);
+                    }
+                    Console.WriteLine(password);
+                }
+                return;
+            }
+            foreach (string Symbol in possibleValues)
+            {
+                password[password.Length] = Symbol;
+                Decoding_Loop(password, possibleValues, passwordLength, targetHash);
+            }
+            return;
+        }
+            
     }
 }
