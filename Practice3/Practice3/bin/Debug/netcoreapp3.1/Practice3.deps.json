@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Practice3/1.0.0": {
+        "dependencies": {
+          "CryptoRng": "1.0.0"
+        },
         "runtime": {
           "Practice3.dll": {}
+        }
+      },
+      "CryptoRng/1.0.0": {
+        "runtime": {
+          "CryptoRng.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Practice3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CryptoRng/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

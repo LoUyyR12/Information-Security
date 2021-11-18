@@ -12,3 +12,10 @@ G:\A'uuk\Information Security\Practice3\Practice3\obj\Debug\netcoreapp3.1\Practi
 G:\A'uuk\Information Security\Practice3\Practice3\obj\Debug\netcoreapp3.1\Practice3.dll
 G:\A'uuk\Information Security\Practice3\Practice3\obj\Debug\netcoreapp3.1\Practice3.pdb
 G:\A'uuk\Information Security\Practice3\Practice3\obj\Debug\netcoreapp3.1\Practice3.genruntimeconfig.cache
+G:\A'uuk\Information Security\Practice3\Practice3\bin\Debug\netcoreapp3.1\CryptoRng.deps.json
+G:\A'uuk\Information Security\Practice3\Practice3\bin\Debug\netcoreapp3.1\CryptoRng.runtimeconfig.json
+G:\A'uuk\Information Security\Practice3\Practice3\bin\Debug\netcoreapp3.1\CryptoRng.runtimeconfig.dev.json
+G:\A'uuk\Information Security\Practice3\Practice3\bin\Debug\netcoreapp3.1\CryptoRng.exe
+G:\A'uuk\Information Security\Practice3\Practice3\bin\Debug\netcoreapp3.1\CryptoRng.dll
+G:\A'uuk\Information Security\Practice3\Practice3\bin\Debug\netcoreapp3.1\CryptoRng.pdb
+G:\A'uuk\Information Security\Practice3\Practice3\obj\Debug\netcoreapp3.1\Practice3.csproj.CopyComplete

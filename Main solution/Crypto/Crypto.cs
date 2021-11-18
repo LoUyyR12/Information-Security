@@ -1,10 +1,13 @@
-﻿using System;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 
-namespace Practice2
+namespace CryptoRng
 {
-    class Crypto
+    public class Crypto
     {
+        static void Main()
+        {
+
+        }
         static public byte[] GetCryptoRng(int length = 10)
         {
             var rngGen = new RNGCryptoServiceProvider();

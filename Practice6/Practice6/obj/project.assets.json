@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CryptoRng/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CryptoRng.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoRng.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CryptoRng/1.0.0": {
+      "type": "project",
+      "path": "../../Main solution/Crypto/CryptoRng.csproj",
+      "msbuildProject": "../../Main solution/Crypto/CryptoRng.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CryptoRng >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LoUyyR\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\A'uuk\\Information Security\\Practice6\\Practice6\\Practice6.csproj",
+      "projectName": "Practice6",
+      "projectPath": "G:\\A'uuk\\Information Security\\Practice6\\Practice6\\Practice6.csproj",
+      "packagesPath": "C:\\Users\\LoUyyR\\.nuget\\packages\\",
+      "outputPath": "G:\\A'uuk\\Information Security\\Practice6\\Practice6\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\LoUyyR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "G:\\A'uuk\\Information Security\\Main solution\\Crypto\\CryptoRng.csproj": {
+              "projectPath": "G:\\A'uuk\\Information Security\\Main solution\\Crypto\\CryptoRng.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

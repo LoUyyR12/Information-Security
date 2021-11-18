@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CryptoRng/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CryptoRng.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoRng.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CryptoRng/1.0.0": {
+      "type": "project",
+      "path": "../../Main solution/Crypto/CryptoRng.csproj",
+      "msbuildProject": "../../Main solution/Crypto/CryptoRng.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CryptoRng >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\LoUyyR\\.nuget\\packages\\": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\A'uuk\\Information Security\\Main solution\\Crypto\\CryptoRng.csproj": {
+              "projectPath": "G:\\A'uuk\\Information Security\\Main solution\\Crypto\\CryptoRng.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
