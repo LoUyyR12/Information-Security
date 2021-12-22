@@ -1,0 +1,14 @@
+G:\A'uuk\Information Security\Main solution\Terminal\bin\Debug\netcoreapp3.1\Console.exe
+G:\A'uuk\Information Security\Main solution\Terminal\bin\Debug\netcoreapp3.1\Console.deps.json
+G:\A'uuk\Information Security\Main solution\Terminal\bin\Debug\netcoreapp3.1\Console.runtimeconfig.json
+G:\A'uuk\Information Security\Main solution\Terminal\bin\Debug\netcoreapp3.1\Console.runtimeconfig.dev.json
+G:\A'uuk\Information Security\Main solution\Terminal\bin\Debug\netcoreapp3.1\Console.dll
+G:\A'uuk\Information Security\Main solution\Terminal\bin\Debug\netcoreapp3.1\Console.pdb
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.csproj.AssemblyReference.cache
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.GeneratedMSBuildEditorConfig.editorconfig
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.AssemblyInfoInputs.cache
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.AssemblyInfo.cs
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.csproj.CoreCompileInputs.cache
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.dll
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.pdb
+G:\A'uuk\Information Security\Main solution\Terminal\obj\Debug\netcoreapp3.1\Console.genruntimeconfig.cache

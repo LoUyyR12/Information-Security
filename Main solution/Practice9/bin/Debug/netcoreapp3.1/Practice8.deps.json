@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Practice8/1.0.0": {
+        "dependencies": {
+          "Practice7": "1.0.0"
+        },
+        "runtime": {
+          "Practice8.dll": {}
+        }
+      },
+      "Practice7/1.0.0": {
+        "runtime": {
+          "Practice7.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practice8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Practice7/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

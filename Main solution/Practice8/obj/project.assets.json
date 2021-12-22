@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Practice7/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Practice7.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Practice7.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Practice7/1.0.0": {
-      "type": "project",
-      "path": "../Practice7/Practice7.csproj",
-      "msbuildProject": "../Practice7/Practice7.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Practice7 >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\LoUyyR\\.nuget\\packages\\": {}
@@ -51,11 +32,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "G:\\A'uuk\\Information Security\\Main solution\\Practice7\\Practice7.csproj": {
-              "projectPath": "G:\\A'uuk\\Information Security\\Main solution\\Practice7\\Practice7.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

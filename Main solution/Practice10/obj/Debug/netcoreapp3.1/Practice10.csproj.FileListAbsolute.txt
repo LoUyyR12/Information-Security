@@ -1,0 +1,14 @@
+G:\A'uuk\Information Security\Main solution\Practice10\bin\Debug\netcoreapp3.1\Practice10.exe
+G:\A'uuk\Information Security\Main solution\Practice10\bin\Debug\netcoreapp3.1\Practice10.deps.json
+G:\A'uuk\Information Security\Main solution\Practice10\bin\Debug\netcoreapp3.1\Practice10.runtimeconfig.json
+G:\A'uuk\Information Security\Main solution\Practice10\bin\Debug\netcoreapp3.1\Practice10.runtimeconfig.dev.json
+G:\A'uuk\Information Security\Main solution\Practice10\bin\Debug\netcoreapp3.1\Practice10.dll
+G:\A'uuk\Information Security\Main solution\Practice10\bin\Debug\netcoreapp3.1\Practice10.pdb
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.csproj.AssemblyReference.cache
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.GeneratedMSBuildEditorConfig.editorconfig
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.AssemblyInfoInputs.cache
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.AssemblyInfo.cs
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.csproj.CoreCompileInputs.cache
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.dll
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.pdb
+G:\A'uuk\Information Security\Main solution\Practice10\obj\Debug\netcoreapp3.1\Practice10.genruntimeconfig.cache

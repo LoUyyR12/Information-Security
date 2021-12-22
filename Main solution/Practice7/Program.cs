@@ -1,87 +1,75 @@
 ﻿using System;
-using System.IO;
-using System.Security.Cryptography;
 using System.Text;
 
-namespace Practice7
+namespace Practice9
 {
     class Program
     {
         static void Main(string[] args)
         {
-            byte[] Data = Encoding.UTF8.GetBytes("Some text");
-            byte[] encData = new byte[Data.Length];
-        }
-        private static RSAParameters _publicKey, _privateKey;
-        public static void AssignNewKey(string publicKeyPath, string
-privateKeyPath)
-        {
-            using (var rsa = new RSACryptoServiceProvider(2048))
+            while (true)
             {
-                rsa.PersistKeyInCsp = false;
-                File.WriteAllText(publicKeyPath, rsa.ToXmlString(false));
-                File.WriteAllText(privateKeyPath, rsa.ToXmlString(true));
+                string answer = Terminal.ReadValue("Enter 1 for the first task, 2 for the second or e to exit");
+                switch (answer)
+                {
+                    default:
+                        {
+                            Terminal.WriteLineWithColor($"\"{answer}\"? I don't understand what you mean.", ConsoleColor.Red);
+                            break;
+                        }
+                    case "1":
+                        {
+                            Task1();
+                            break;
+                        }
+                    case "2":
+                        {
+                            Task2();
+                            break;
+                        }
+                    case "e":
+                        {
+                            Console.WriteLine();
+                            Terminal.WriteLineWithColor("Bye!", ConsoleColor.Green);
+                            return;
+                        }
+                }
             }
         }
-        private readonly static string CspContainerName = "RsaContainer";
-        public static void AssignNewKey()
+        static void Task1()
         {
-            CspParameters cspParameters = new CspParameters(1)
-            {
-                KeyContainerName = CspContainerName,
-                Flags = CspProviderFlags.UseMachineKeyStore, //Рівень пристрою
-                ProviderName = "Microsoft Strong Cryptographic Provider"
-            };
-            var rsa = new RSACryptoServiceProvider(cspParameters)
-            {
-                PersistKeyInCsp = true
-            };
+            var rsaParams = new RSAParameters();
+            const string original = "Lorem ipsum dolor sit amet, consectetur adipiscing elit";
+            rsaParams.AssignNewKey();
+            var encrypted = rsaParams.EncryptData(Encoding.UTF8.GetBytes(original));
+            var decrypted = rsaParams.DecryptData(encrypted);
+            Console.WriteLine();
+            Terminal.WriteWithColor("Original Text > ", Terminal.inputMessagesColor);
+            Terminal.WriteLineWithColor(original, Terminal.inputColor);
+            Console.WriteLine();
+            Terminal.WriteWithColor("Encrypted Text > ", Terminal.inputMessagesColor);
+            Terminal.WriteLineWithColor(Convert.ToBase64String(encrypted), Terminal.arrowsColor);
+            Console.WriteLine();
+            Terminal.WriteWithColor("Decrypted Text > ", Terminal.inputMessagesColor);
+            Terminal.WriteLineWithColor(Encoding.Default.GetString(decrypted), Terminal.inputColor);
+            Console.WriteLine();
         }
-
-        public static byte[] EncryptData(byte[] dataToEncrypt)
+        static void Task2()
         {
-            byte[] cypherBytes;
-            var cspParams = new CspParameters
-            {
-                KeyContainerName = CspContainerName,
-                Flags = CspProviderFlags.UseMachineKeyStore
-            };
-            using (var rsa = new RSACryptoServiceProvider(cspParams))
-            {
-                rsa.PersistKeyInCsp = true;
-                rsa.ImportParameters(_publicKey);
-                cypherBytes = rsa.Encrypt(dataToEncrypt, true);
-            }
-            return cypherBytes;
-        }
-        public static byte[] DecryptData(byte[] dataToDecrypt)
-        {
-            byte[] plainBytes;
-            var cspParams = new CspParameters
-            {
-                KeyContainerName = CspContainerName,
-                Flags = CspProviderFlags.UseMachineKeyStore
-            };
-            using (var rsa = new RSACryptoServiceProvider(cspParams))
-            {
-                rsa.PersistKeyInCsp = true;
-                rsa.ImportParameters(_privateKey);
-                plainBytes = rsa.Decrypt(dataToDecrypt, true);
-            }
-            return plainBytes;
-        }
-        public static void DeleteKeyInCsp()
-        {
-            CspParameters cspParameters = new CspParameters
-            {
-                KeyContainerName = CspContainerName,
-                Flags = CspProviderFlags.UseMachineKeyStore
-            };
-            var rsa = new RSACryptoServiceProvider(cspParameters)
-            {
-                PersistKeyInCsp = false
-            };
-            rsa.Clear();
+            string mess = "Volutpat ac tincidunt vitae semper quis lectus nulla";
+            Task2Methods.AssignNewKey("Public.xml");
+            var encrypted = Task2Methods.EncryptData("Public.xml", Encoding.Unicode.GetBytes(mess));
+            var decrypted = Task2Methods.DecryptData(encrypted);
+            Console.WriteLine();
+            Terminal.WriteWithColor("Message > ", Terminal.inputMessagesColor);
+            Terminal.WriteLineWithColor(mess, Terminal.inputColor);
+            Console.WriteLine();
+            Terminal.WriteWithColor("Encrypted message > ", Terminal.inputMessagesColor);
+            Terminal.WriteLineWithColor(Convert.ToBase64String(encrypted), Terminal.arrowsColor);
+            Console.WriteLine();
+            Terminal.WriteWithColor("Decrypted message > ", Terminal.inputMessagesColor);
+            Terminal.WriteLineWithColor(Encoding.Unicode.GetString(decrypted), Terminal.inputColor);
+            Console.WriteLine();
         }
 
     }
