@@ -1,0 +1,14 @@
+G:\A'uuk\!Exam\Exam\Exam\bin\Debug\netcoreapp3.1\Exam.exe
+G:\A'uuk\!Exam\Exam\Exam\bin\Debug\netcoreapp3.1\Exam.deps.json
+G:\A'uuk\!Exam\Exam\Exam\bin\Debug\netcoreapp3.1\Exam.runtimeconfig.json
+G:\A'uuk\!Exam\Exam\Exam\bin\Debug\netcoreapp3.1\Exam.runtimeconfig.dev.json
+G:\A'uuk\!Exam\Exam\Exam\bin\Debug\netcoreapp3.1\Exam.dll
+G:\A'uuk\!Exam\Exam\Exam\bin\Debug\netcoreapp3.1\Exam.pdb
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.csproj.AssemblyReference.cache
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.GeneratedMSBuildEditorConfig.editorconfig
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.AssemblyInfoInputs.cache
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.AssemblyInfo.cs
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.csproj.CoreCompileInputs.cache
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.dll
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.pdb
+G:\A'uuk\!Exam\Exam\Exam\obj\Debug\netcoreapp3.1\Exam.genruntimeconfig.cache
